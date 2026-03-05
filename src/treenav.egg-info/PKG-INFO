@@ -1,6 +1,6 @@
 Metadata-Version: 2.4
 Name: treenav
-Version: 0.1.3
+Version: 0.1.4
 Summary: TREENAV: A minimalist tree navigation library made to be usable to solve path-finding optimization problems.
 Author-email: Tiago Oliveira Weber <tiago.oliveira.weber@gmail.com>
 License-Expression: MIT
@@ -12,7 +12,7 @@ Description-Content-Type: text/markdown
 License-File: LICENSE
 Dynamic: license-file
 
-# TREENAV: A minimalist tree navigation library made to be usable to solve path-finding optimization problems
+# TREENAV: A minimalist tree navigation library to solve path-finding optimization problems
 
 TREENAV provides basic tree navigation for path-finding optimization problems. It has configurable features that allows the user to adapt it to the problem at hand. Its first use was to solve maze and routing problems (see examples).
 
