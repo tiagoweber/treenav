@@ -11,6 +11,19 @@ The library works both for  manually created trees or for problems in which the 
 - to solve specific path-finding problems, it interacts with specific problems through a user-defined class which require a minimal number of methods;
 - implements Depth-first, Breadth-first and A* (A star) algorithms
 
+# Problem and Examples
+
+There is a Maze solver example already implemented inside the library.
+
+Depth-first strategy on a 20x20 maze
+![Depth-first strategy on a 20x20 maze](./examples/depth-first-maze_20_20.gif)
+
+Breadth-first strategy on a 20x20 maze
+![Breadth-first strategy on a 20x20 maze](./examples/breadth-first-maze_20_20.gif)
+
+A* strategy on a 20x20 maze
+![A* strategy on a 20x20 maze](./examples/a-star-maze_20_20.gif)
+
 # About the author and license
 
 - Copyright 2026 Tiago Oliveira Weber
