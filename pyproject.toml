@@ -3,8 +3,8 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "pampa_search"
-version = "0.1.6"
+name = "pampa-search"
+version = "0.1.7"
 authors = [
   { name="Tiago Oliveira Weber", email="tiago.oliveira.weber@gmail.com" },
 ]
@@ -21,4 +21,4 @@ classifiers = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/tiagoweber/pampa_search"
+"Homepage" = "https://github.com/tiagoweber/pampa-search"
