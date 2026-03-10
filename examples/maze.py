@@ -1,14 +1,14 @@
-import treenav
+import pampa_search as ps
 import copy
-import treenav.problems
+import pampa_search.problems as problems
 
 
-game = treenav.problems.maze()
+game = problems.maze()
 #game = maze("./maps/maze_50_50.txt")
 
 game.print_board()
 
-test_tree = treenav.tree(game,cross_revisit_allowed=False)
+test_tree = ps.tree(game,cross_revisit_allowed=False)
 
 # decision
 next_node = test_tree.root_node

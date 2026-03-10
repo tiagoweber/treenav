@@ -1,10 +1,10 @@
-# Samples problems for TREENAV
-# TREENAV provides basic tree navigation for path-finding optimization problems. It has configurable features that allows the user to adapt it to the problem at hand. Its first use was to solve maze and routing problems (see examples).
+# Samples problems for PAMPA_SEARCH
+# PAMPA_SEARCH provides basic tree navigation for path-finding optimization problems. It has configurable features that allows the user to adapt it to the problem at hand. Its first use was to solve maze and routing problems (see examples).
 # The library works both for  manually created trees or for problems in which the tree is created dinamically through iterations/movements in the problem. For that purpose, the user can create a class to describe its problems.
 #
 # - Copyright 2026 Tiago Oliveira Weber
 # - License: MIT License
-# - Repository: https://github.com/tiagoweber/treenav
+# - Repository: https://github.com/tiagoweber/pampa_search
 # - Author professional website: www.tiagoweber.com.br
 # - Contact: tiago.oliveira.weber@gmail.com
 

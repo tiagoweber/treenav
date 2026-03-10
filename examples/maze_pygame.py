@@ -1,6 +1,6 @@
-import treenav
+import pampa-search as ps
 import copy
-import treenav.problems
+import pampa-search.problems as problems
 import pygame
 
 record_gif = True
@@ -9,12 +9,12 @@ record_gif = True
 #strategy = "breadth-first"
 strategy = "a-star"
 maze_name = "maze_20_20"   # ./maps/maze_20_20.txt"
-record_name = strategy+maze_name   
-game = treenav.problems.maze("./maps/"+maze_name+".txt",use_pygame=True,record_gif=True,record_name=record_name+".gif")
+record_name = strategy+"-"+maze_name   
+game = problems.maze("./maps/"+maze_name+".txt",use_pygame=True,record_gif=True,record_name=record_name+".gif")
 
 game.print_board()
 
-test_tree = treenav.tree(game,cross_revisit_allowed=False,strategy=strategy)
+test_tree = ps.tree(game,cross_revisit_allowed=False,strategy=strategy)
 
 # decision
 next_node = test_tree.root_node

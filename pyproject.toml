@@ -3,12 +3,12 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "pampa-search"
+name = "pampa_search"
 version = "0.1.6"
 authors = [
   { name="Tiago Oliveira Weber", email="tiago.oliveira.weber@gmail.com" },
 ]
-description = "PAMPA-SEARCH: A minimalist and generic graph search library made to be usable to solve state-search-space problems such as routing."
+description = "PAMPA_SEARCH: A minimalist and generic graph search library made to be usable to solve state-search-space problems such as routing."
 readme = "README.md"
 requires-python = ">=3.8"
 license = "MIT"
@@ -21,4 +21,4 @@ classifiers = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/tiagoweber/pampa-search"
+"Homepage" = "https://github.com/tiagoweber/pampa_search"

@@ -1,14 +1,14 @@
-import treenav
+import pampa_search
 import copy
-import treenav.problems
+import pampa_search.problems
 
 
 def test_solve_default_map():
-    game = treenav.problems.maze()
+    game = pampa_search.problems.maze()
 
     #game.print_board()
 
-    test_tree = treenav.tree(game,cross_revisit_allowed=False)
+    test_tree = pampa_search.tree(game,cross_revisit_allowed=False)
 
     # decision
     next_node = test_tree.root_node
