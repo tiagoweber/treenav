@@ -8,7 +8,7 @@ version = "0.1.7"
 authors = [
   { name="Tiago Oliveira Weber", email="tiago.oliveira.weber@gmail.com" },
 ]
-description = "PAMPA_SEARCH: A minimalist and generic graph search library made to be usable to solve state-search-space problems such as routing."
+description = "PAMPA-SEARCH: A minimalist and generic graph search library made to be usable to solve state-search-space problems such as routing."
 readme = "README.md"
 requires-python = ">=3.8"
 license = "MIT"
