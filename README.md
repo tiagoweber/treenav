@@ -17,15 +17,15 @@ There is a Maze solver example already implemented inside the library.
 
 Depth-first strategy on a 20x20 maze
 
-![Depth-first strategy on a 20x20 maze](https://github.com/tiagoweber/pampa-search/blob/main/examples/depth-first-maze_20_20.gif)
+![Depth-first strategy on a 20x20 maze](https://raw.githubusercontent.com/tiagoweber/pampa-search/main/examples/depth-first-maze_20_20.gif)
 
 Breadth-first strategy on a 20x20 maze
 
-![Breadth-first strategy on a 20x20 maze](https://github.com/tiagoweber/pampa-search/blob/main/examples/breadth-first-maze_20_20.gif)
+![Breadth-first strategy on a 20x20 maze](https://raw.githubusercontent.com/tiagoweber/pampa-search/main/examples/breadth-first-maze_20_20.gif)
 
 A* strategy on a 20x20 maze
 
-![A* strategy on a 20x20 maze](https://github.com/tiagoweber/pampa-search/blob/main/examples/a-star-maze_20_20.gif)
+![A* strategy on a 20x20 maze](https://raw.githubusercontent.com/tiagoweber/pampa-search/main/examples/a-star-maze_20_20.gif)
 
 # About the author and license
 
